@@ -1,0 +1,28 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.python-version
+
+# SpeechBrain / pyannote downloaded model weights
+pretrained_models/
+
+# C# build output
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+
+# HuggingFace cache
+.cache/
+
+# Voice gallery (user data — don't commit)
+# Located at %AppData%\ZoomLocalMute\voices.json
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
